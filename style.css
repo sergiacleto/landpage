@@ -7,10 +7,11 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ebe6e6; /* Bege claro */
+    color: #333;
     text-align: center;
     padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
 }
 
 main {
@@ -24,7 +25,25 @@ section {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #4A4A4A; /* Cinza escuro */
+}
+
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -34,6 +53,7 @@ ul {
 
 a {
     color: #007BFF;
+    text-decoration: none;
 }
 
 a:hover {
@@ -46,3 +66,4 @@ footer {
     background-color: #333;
     color: white;
 }
+
